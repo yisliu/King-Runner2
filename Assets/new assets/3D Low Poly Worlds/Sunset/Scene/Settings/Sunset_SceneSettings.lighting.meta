@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e45a378920384db46986350f9dd133bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96076
+  packageName: 3D Low Poly Worlds
+  packageVersion: 1.4
+  assetPath: Assets/3D Low Poly Worlds/Sunset/Scene/Settings/Sunset_SceneSettings.lighting
+  uploadId: 859086

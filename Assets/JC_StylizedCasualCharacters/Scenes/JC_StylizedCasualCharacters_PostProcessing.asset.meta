@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3b5daee9b3a5cb040a855464e6f91706
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 342508
+  packageName: Stylized Casual Adventure Characters
+  packageVersion: 1.0
+  assetPath: Assets/JC_StylizedCasualCharacters/Scenes/JC_StylizedCasualCharacters_PostProcessing.asset
+  uploadId: 812592

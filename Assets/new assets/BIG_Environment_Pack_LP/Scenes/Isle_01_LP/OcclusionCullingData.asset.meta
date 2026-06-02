@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 39dfcc2651e3f05449ad8ea3b7396ec3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 36300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215112
+  packageName: Low-Poly Big Environment Pack
+  packageVersion: 1.0
+  assetPath: Assets/BIG_Environment_Pack_LP/Scenes/Isle_01_LP/OcclusionCullingData.asset
+  uploadId: 649867

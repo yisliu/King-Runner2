@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a52ab74551b065f4aafa410f5f5a9ee2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96076
+  packageName: 3D Low Poly Worlds
+  packageVersion: 1.4
+  assetPath: Assets/3D Low Poly Worlds/Night/Scene/Settings/Night_SceneSettings.lighting
+  uploadId: 859086

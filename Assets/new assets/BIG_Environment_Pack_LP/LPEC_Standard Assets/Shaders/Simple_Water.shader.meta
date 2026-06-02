@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 85253e379f2f35e43949a56064f0e705
+timeCreated: 1491772188
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215112
+  packageName: Low-Poly Big Environment Pack
+  packageVersion: 1.0
+  assetPath: Assets/BIG_Environment_Pack_LP/LPEC_Standard Assets/Shaders/Simple_Water.shader
+  uploadId: 649867

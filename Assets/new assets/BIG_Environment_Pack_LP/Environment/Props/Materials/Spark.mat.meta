@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c5644078256754641912b9c8bbaaac9c
+timeCreated: 1519332754
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215112
+  packageName: Low-Poly Big Environment Pack
+  packageVersion: 1.0
+  assetPath: Assets/BIG_Environment_Pack_LP/Environment/Props/Materials/Spark.mat
+  uploadId: 649867

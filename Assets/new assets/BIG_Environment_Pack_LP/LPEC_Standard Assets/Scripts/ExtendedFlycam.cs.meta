@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a28e63c7bfd4a9342942a0dac924458b
+timeCreated: 1514562019
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215112
+  packageName: Low-Poly Big Environment Pack
+  packageVersion: 1.0
+  assetPath: Assets/BIG_Environment_Pack_LP/LPEC_Standard Assets/Scripts/ExtendedFlycam.cs
+  uploadId: 649867
