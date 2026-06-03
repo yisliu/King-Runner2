@@ -5576,7 +5576,7 @@ MonoBehaviour:
   - {fileID: 4113266521344349846, guid: cdd1cb86edeaa4bccba9cad84f773835, type: 3}
   - {fileID: 4113266521344349846, guid: 61c0e959441b249cfa612acecad8bdab, type: 3}
   - {fileID: 4113266521344349846, guid: 725ec1e95d5c040fe9ef1b40f315332a, type: 3}
-  checkpointChunkPrefab: {fileID: 4113266521344349846, guid: c3acbb6cde18a44c3acf42f9aa2de96d, type: 3}
+  checkpointChunkPrefab: {fileID: 4113266521344349846, guid: 2d809c71d34a24043b4a18ff2abf9381, type: 3}
   ChunkParent: {fileID: 1131256086}
   scoreManager: {fileID: 1484458020}
   startingChunksAmount: 12
@@ -5694,6 +5694,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Casual_Male
       objectReference: {fileID: 0}
+    - target: {fileID: 7468908260117206007, guid: 4fb69deca745bb2468236eb03b90210f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: efdf566a075231a4880b5f044d4e639c, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
