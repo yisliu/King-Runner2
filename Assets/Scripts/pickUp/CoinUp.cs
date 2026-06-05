@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class CoinUp : pickUp
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] private int scoreAmount = 100;
     scoreManager sscoreManager;
 
@@ -15,7 +14,8 @@ public class CoinUp : pickUp
     {
         if (sscoreManager != null)
         {
-            sscoreManager.increaseScore(scoreAmount);
+            // Call collectCoin so the manager knows it was a coin, not an apple
+            sscoreManager.collectCoin(scoreAmount);
         }
     }
 }
