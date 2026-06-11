@@ -11,6 +11,8 @@ public class chunky : MonoBehaviour
     [SerializeField] float coinSpawnChance = 0.5f;
     [SerializeField] float coinApartDist = 2f;
     [SerializeField] float[] lanes = { -2.5f, 0f, 2.5f};
+
+    [SerializeField] private float heightAdjustments = 0f;
     LevelCooker levelGenerator;
     scoreManager scoreManager;
     
@@ -38,7 +40,7 @@ public class chunky : MonoBehaviour
         {
             if(availableLanes.Count <= 0) break;
             int selectedLane = spawnerStuff();
-            Vector3 spawnPos = new Vector3(lanes[selectedLane], transform.position.y, transform.position.z);
+            Vector3 spawnPos = new Vector3(lanes[selectedLane], transform.position.y + heightAdjustments, transform.position.z);
             Instantiate(fencePrefab, spawnPos, Quaternion.identity, this.transform);
         }
     }
@@ -49,7 +51,7 @@ public class chunky : MonoBehaviour
         
         int selectedLane = spawnerStuff();
         
-        Vector3 spawnPos = new Vector3(lanes[selectedLane], transform.position.y, transform.position.z);
+        Vector3 spawnPos = new Vector3(lanes[selectedLane], transform.position.y + heightAdjustments, transform.position.z);
         AppleUp newApple = Instantiate(applePrefab, spawnPos, Quaternion.identity, this.transform).GetComponent<AppleUp>();
         newApple.init(levelGenerator);
     }
@@ -66,7 +68,7 @@ public class chunky : MonoBehaviour
         for (int i = 0; i < coinsNumber; i++)
         {
             float spawnPosZ = topOfChunkZ - (i*coinApartDist);
-            Vector3 spawnPos = new Vector3(lanes[selectedLane], transform.position.y, spawnPosZ);
+            Vector3 spawnPos = new Vector3(lanes[selectedLane], transform.position.y + heightAdjustments, spawnPosZ);
             CoinUp newCoin = Instantiate(coinPrefab, spawnPos, Quaternion.identity, this.transform).GetComponent<CoinUp>();
             newCoin.init(scoreManager);
         }

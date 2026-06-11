@@ -253,6 +253,7 @@ MonoBehaviour:
   - -2.5
   - 1
   - 3.5
+  heightAdjustments: 0
 --- !u!1 &5988678946260486644
 GameObject:
   m_ObjectHideFlags: 0

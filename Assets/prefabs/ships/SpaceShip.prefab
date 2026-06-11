@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f51b5910e6c3f4a03a552cd574a9fba2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: newmap 3
+  nextLevel: {fileID: 102900000, guid: 533acc910b63f438fb3f580b6039e004, type: 3}
   triggerRadius: 12
 --- !u!54 &4521080080625867001
 Rigidbody:

@@ -4,7 +4,8 @@ using System.Collections;
 
 public class LevelTransition : MonoBehaviour
 {
-    [SerializeField] private string nextLevel;
+    //[SerializeField] private string nextLevel;
+	[SerializeField] private Object nextLevel;
     [SerializeField] private float triggerRadius = 3f;
 	private bool allowTransition = false;
 	private bool transitioning = false;
@@ -34,7 +35,7 @@ public class LevelTransition : MonoBehaviour
 		Debug.Log($"[LT] object:{gameObject.name} XZ dist:{dist:F2} radius:{triggerRadius} shipXZ:({shipXZ.x:F1},{shipXZ.y:F1})");
 		if (dist <= triggerRadius){
 			transitioning = true;
-			Debug.Log("[LT] Boarding — loading " + nextLevel);
+			Debug.Log("[LT] Boarding — loading " + nextLevel.name);
 			StartCoroutine(LoadScene());
 		}
 	}
@@ -44,7 +45,6 @@ public class LevelTransition : MonoBehaviour
 		Debug.Log("Level Transition Permitted. Player can now move on to the next level.");
 	}
 
-	// kept as a backup in case the object is stationary and physics does catch it
 	private void OnTriggerEnter(Collider other){
     	if(allowTransition && !transitioning && other.CompareTag("Player")){
 			transitioning = true;
@@ -54,6 +54,12 @@ public class LevelTransition : MonoBehaviour
 
 	private IEnumerator LoadScene(){
 		var rb = player.GetComponent<Rigidbody>();
+   		// ADD THIS CHECK:
+   		if (nextLevel == null)
+   		{
+      		Debug.LogError("Next Level Scene is not assigned in the inspector!");
+      		yield break;
+   		}
 		if(rb != null){
 			rb.isKinematic = true;
 		}
@@ -65,6 +71,6 @@ public class LevelTransition : MonoBehaviour
 
 		Time.timeScale = 1f;
 		yield return new WaitForSecondsRealtime(0.5f);
-		SceneManager.LoadScene(nextLevel);
+		SceneManager.LoadScene(nextLevel.name);
 	}
 }

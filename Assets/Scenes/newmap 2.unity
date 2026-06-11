@@ -157,7 +157,7 @@ MonoBehaviour:
   checkpointChunkPrefab: {fileID: 4113266521344349846, guid: 76c6068e76f384a7db54ab1507e6aaea, type: 3}
   ChunkParent: {fileID: 1216483105}
   scoreManager: {fileID: 1946596147}
-  shipPrefab: {fileID: 2604852128502854851, guid: 92c82b853043842e9aaea5b35873d753, type: 3}
+  shipPrefab: {fileID: 2604852128502854851, guid: 959a42ed7b7ad4efd8be9e12c32beea5, type: 3}
   shipSpawnPosition: {x: -2.8, y: 26.63, z: 13}
   startingChunksAmount: 12
   chunkLength: 8

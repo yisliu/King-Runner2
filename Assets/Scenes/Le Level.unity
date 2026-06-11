@@ -350,6 +350,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameManager: {fileID: 247166517}
   scoreText: {fileID: 484320190}
+  coinText: {fileID: 0}
+  coinGoal: 50
 --- !u!4 &247166516
 Transform:
   m_ObjectHideFlags: 0
@@ -1285,6 +1287,8 @@ MonoBehaviour:
   checkpointChunkPrefab: {fileID: 4113266521344349846, guid: c3acbb6cde18a44c3acf42f9aa2de96d, type: 3}
   ChunkParent: {fileID: 206365521}
   scoreManager: {fileID: 247166515}
+  shipPrefab: {fileID: 0}
+  shipSpawnPosition: {x: -2.8, y: 26.63, z: 13}
   startingChunksAmount: 12
   chunkLength: 8
   moveSpeed: 6
