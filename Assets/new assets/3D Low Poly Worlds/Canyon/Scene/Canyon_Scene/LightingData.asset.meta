@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d3360742254aeb344b81a85c565ed360
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96076
+  packageName: 3D Low Poly Worlds
+  packageVersion: 1.4
+  assetPath: Assets/3D Low Poly Worlds/Canyon/Scene/Canyon_Scene/LightingData.asset
+  uploadId: 859086

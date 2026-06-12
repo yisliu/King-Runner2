@@ -12,6 +12,9 @@ public class LevelCooker : MonoBehaviour
     [SerializeField] Transform ChunkParent;
     [SerializeField] scoreManager scoreManager;
 
+	[Header("Ship Arrival")]
+	[SerializeField] private GameObject shipPrefab;
+	[SerializeField] private Vector3 shipSpawnPosition = new Vector3(-2.8f, 26.63f, 13f);
 
     [Header("Level Settings")]
 
@@ -126,6 +129,26 @@ public class LevelCooker : MonoBehaviour
             }
         }
     }
+
+	private void OnEnable(){
+		scoreManager.onThresholdReached += SpawnShip;
+	}
+
+	private void OnDisable(){
+		scoreManager.onThresholdReached -= SpawnShip;
+	}
+
+	private void SpawnShip(){
+		GameObject spawnShip = Instantiate(shipPrefab, shipSpawnPosition, Quaternion.identity);
+		ShipArrival ship = spawnShip.GetComponent<ShipArrival>();
+		if(ship != null){
+			ship.startArrival();
+		}
+		LevelTransition levelTransition = spawnShip.GetComponent<LevelTransition>();
+		if(levelTransition != null){
+			levelTransition.UnlockTransition();
+		}
+	}
 
     // Update is called once per frame
 

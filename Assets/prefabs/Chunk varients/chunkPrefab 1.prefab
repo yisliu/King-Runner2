@@ -235,6 +235,7 @@ MonoBehaviour:
   - -2.5
   - 1
   - 3.5
+  heightAdjustments: 0
 --- !u!114 &6043970902847263755
 MonoBehaviour:
   m_ObjectHideFlags: 0
