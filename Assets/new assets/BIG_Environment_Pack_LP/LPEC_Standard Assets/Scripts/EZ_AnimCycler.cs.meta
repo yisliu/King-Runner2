@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3aa6992ed9cfc454380e23dd42035454
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215112
+  packageName: Low-Poly Big Environment Pack
+  packageVersion: 1.0
+  assetPath: Assets/BIG_Environment_Pack_LP/LPEC_Standard Assets/Scripts/EZ_AnimCycler.cs
+  uploadId: 649867

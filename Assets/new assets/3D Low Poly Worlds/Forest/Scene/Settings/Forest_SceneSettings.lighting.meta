@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47e2efb02f9f1e248ad9329d9e553e5b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96076
+  packageName: 3D Low Poly Worlds
+  packageVersion: 1.4
+  assetPath: Assets/3D Low Poly Worlds/Forest/Scene/Settings/Forest_SceneSettings.lighting
+  uploadId: 859086
