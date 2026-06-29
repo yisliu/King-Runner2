@@ -69,6 +69,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8952406379154f11bd2eec290cfff60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 100
+  collectSound: {fileID: 8300000, guid: fd444b2e722e34c4fa97f75305811951, type: 3}
+  adjustChangeMoveSpeedAmount: 3
 --- !u!1 &8852240253102575338
 GameObject:
   m_ObjectHideFlags: 0

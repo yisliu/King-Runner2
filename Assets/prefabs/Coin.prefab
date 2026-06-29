@@ -69,6 +69,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f7189309ea1482dac3eb96ca220bbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 100
+  collectSound: {fileID: 8300000, guid: 07c55bdb5bb1444c98391f167a646d8c, type: 3}
+  scoreAmount: 100
 --- !u!1 &3254714670218424445
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,27 +3,33 @@ using System.Collections;
 
 public class boxMaker : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     [SerializeField] GameObject[] boxPrefab;
     [SerializeField] float boxSpawnTime = 1f;
-    [SerializeField] Transform obsParent;
     [SerializeField] private float spawnWidth = 4f;
+    [SerializeField] private float spawnAheadDistance = 30f;
+    [SerializeField] private float spawnHeight = 0f;
+    [SerializeField] private float minBoxSpawnTime = 0.3f;
+    [SerializeField] private float spawnTimeDecreasePerLevel = 0.15f;
+
     void Start()
     {
         StartCoroutine(SpawnObstacleRoutine());
     }
 
-    // Update is called once per frame
+    public void SetDifficulty(int level)
+    {
+        boxSpawnTime = Mathf.Max(minBoxSpawnTime, boxSpawnTime - spawnTimeDecreasePerLevel);
+    }
+
     IEnumerator SpawnObstacleRoutine()
     {
-        
         while (true)
-        {   
-            GameObject obsPrefab = boxPrefab[Random.Range(0, boxPrefab.Length)];
-            Vector3 spawnPosition = new Vector3(Random.Range(-spawnWidth, spawnWidth), transform.position.y,
-                transform.position.z);
+        {
             yield return new WaitForSeconds(boxSpawnTime);
-            Instantiate(obsPrefab, spawnPosition, Random.rotation, obsParent);
+            GameObject obsPrefab = boxPrefab[Random.Range(0, boxPrefab.Length)];
+            float spawnZ = Camera.main.transform.position.z + spawnAheadDistance;
+            Vector3 spawnPosition = new Vector3(Random.Range(-spawnWidth, spawnWidth), spawnHeight, spawnZ);
+            Instantiate(obsPrefab, spawnPosition, Quaternion.Euler(0f, Random.Range(0f, 360f), 0f));
         }
     }
 }

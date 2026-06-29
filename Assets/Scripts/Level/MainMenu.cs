@@ -8,7 +8,7 @@ public class MainMenuManager : MonoBehaviour
 {
     [Header("UI Panels")]
     [SerializeField] private RectTransform mainMenuPanel;
-    [SerializeField] private RectTransform settingsPanel;
+    [SerializeField] private RectTransform characterSelectPanel;
 
     [Header("Core Elements")]
     [SerializeField] private TextMeshProUGUI highScoreText;
@@ -18,12 +18,6 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private float transitionDuration = 0.5f;
     [SerializeField] private Ease transitionEase = Ease.InOutCubic;
     [SerializeField] private float fadeDuration = 1.0f;
-
-    [Header("Settings Panel Elements")]
-    [SerializeField] private TMP_Text audioButtonText; // Drag your AudioButton's Text component here
-
-    // We only declare this variable ONCE here so the entire script can share it safely
-    private bool isMuted = false;
 
     private void Start()
     {
@@ -43,7 +37,7 @@ public class MainMenuManager : MonoBehaviour
         }
 
         if (mainMenuPanel != null) mainMenuPanel.anchoredPosition = Vector2.zero;
-        if (settingsPanel != null) settingsPanel.anchoredPosition = new Vector2(2000f, 0f);
+        if (characterSelectPanel != null) characterSelectPanel.anchoredPosition = new Vector2(2000f, 0f);
     }
 
     public void PlayGame()
@@ -61,38 +55,24 @@ public class MainMenuManager : MonoBehaviour
         }
     }
 
-    public void OpenSettings()
+    public void OpenCharacterSelect()
     {
         mainMenuPanel.DOAnchorPos(new Vector2(-2000f, 0f), transitionDuration)
                      .SetEase(transitionEase);
 
-        settingsPanel.DOAnchorPos(Vector2.zero, transitionDuration)
-                     .SetEase(transitionEase);
+        if (characterSelectPanel != null)
+            characterSelectPanel.DOAnchorPos(Vector2.zero, transitionDuration)
+                                .SetEase(transitionEase);
     }
 
-    public void CloseSettings()
+    public void CloseCharacterSelect()
     {
         mainMenuPanel.DOAnchorPos(Vector2.zero, transitionDuration)
                      .SetEase(transitionEase);
 
-        settingsPanel.DOAnchorPos(new Vector2(2000f, 0f), transitionDuration)
-                     .SetEase(transitionEase);
-    }
-
-    public void ToggleAudio()
-    {
-        isMuted = !isMuted;
-    
-        // Mute project audio listener
-        AudioListener.pause = isMuted;
-
-        // Update the button text to show the current state to the player
-        if (audioButtonText != null)
-        {
-            audioButtonText.text = isMuted ? "MUTED" : "ACTIVE";
-        }
-
-        Debug.Log(isMuted ? "Audio Muted" : "Audio Unmuted");
+        if (characterSelectPanel != null)
+            characterSelectPanel.DOAnchorPos(new Vector2(2000f, 0f), transitionDuration)
+                                .SetEase(transitionEase);
     }
 
     public void QuitGame()

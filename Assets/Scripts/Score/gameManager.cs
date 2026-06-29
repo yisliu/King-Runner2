@@ -1,30 +1,27 @@
 using TMPro;
 using UnityEngine;
+using DG.Tweening;
 
 public class gameManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] playerCollison  player;
+    [SerializeField] playerCollison player;
     [SerializeField] private TMP_Text timeText;
-    [SerializeField] GameObject gameOverPanel;
     [SerializeField] private float startTime = 5f;
-    private float timeLeft;
-    bool gameover = false;
+    [SerializeField] private float lowTimeThreshold = 10f;
 
-    public bool GameOverValues
-    {
-        get{ return gameover;} 
-    }
+    private float timeLeft;
+    private bool gameover = false;
+    private bool lowTimePulseActive = false;
+    private Tweener pulseTween;
+
+    public bool GameOverValues => gameover;
+
     void Start()
     {
         timeLeft = startTime;
-        gameOverPanel.SetActive(false);
-
+        if (timeText != null) timeText.color = Color.white;
     }
-    
-    
 
-    // Update is called once per frame
     void Update()
     {
         timer();
@@ -33,28 +30,41 @@ public class gameManager : MonoBehaviour
     public void IncreaseTime(float timeAdded)
     {
         timeLeft += timeAdded;
+
+        // Cancel pulse if time was refilled above threshold
+        if (timeLeft > lowTimeThreshold && lowTimePulseActive)
+        {
+            lowTimePulseActive = false;
+            pulseTween?.Kill();
+            if (timeText != null) timeText.color = Color.white;
+        }
     }
 
     public void timer()
     {
-        if (gameover)
-        {
-            return;
-        }
+        if (gameover) return;
+
         timeLeft -= Time.deltaTime;
         timeText.text = timeLeft.ToString("F1");
 
-        if (timeLeft <= 0f)
+        if (timeLeft <= lowTimeThreshold && !lowTimePulseActive)
         {
-            GameOver();
+            lowTimePulseActive = true;
+            pulseTween = DOTween.To(() => timeText.color, x => timeText.color = x, Color.red, 0.4f)
+                .SetLoops(-1, LoopType.Yoyo)
+                .SetUpdate(true);
         }
+
+        if (timeLeft <= 0f)
+            GameOver();
     }
 
     void GameOver()
     {
         gameover = true;
-        player.enabled = false;
-        gameOverPanel.SetActive(true);
-        Time.timeScale = .1f;
+        pulseTween?.Kill();
+        if (timeText != null) timeText.color = Color.red;
+        if (player != null) player.enabled = false;
+        Time.timeScale = 0f;
     }
 }
