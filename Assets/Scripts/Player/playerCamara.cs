@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 using Unity.Cinemachine;
 using System.Collections;
@@ -67,4 +68,87 @@ public class playerCamara : MonoBehaviour
         cinemachineCamera.Lens.FieldOfView = targetFov;
     }
 
+}
+*/
+
+using UnityEngine;
+using Unity.Cinemachine;
+using System.Collections;
+
+public class playerCamara : MonoBehaviour
+{
+    [SerializeField] private float minFov = 35f;
+    [SerializeField] ParticleSystem speedupParticles;
+    [SerializeField] private float maxFov = 85f;
+
+    [SerializeField] private float zoomDuration = 1f;
+    [SerializeField] private float zoomSpeedModifier = 5f;
+
+    CinemachineCamera cinemachineCamera;
+
+    void Awake()
+    {
+        cinemachineCamera = GetComponent<CinemachineCamera>();
+    }
+
+    void Start()
+    {
+        // Tag-based lookup works for every character prefab (male, female, island mover, etc.)
+        // regardless of which movement component is on the player.
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+
+        if (playerObj != null && cinemachineCamera != null)
+        {
+            // Use a child named "CameraTarget" if the prefab has one — falls back to root
+            Transform target = playerObj.transform.Find("CameraTarget") ?? playerObj.transform;
+            cinemachineCamera.Follow = target;
+            cinemachineCamera.LookAt = target;
+        }
+        else
+        {
+            Debug.LogWarning("Player (tag) or CinemachineCamera missing from the scene setup!");
+        }
+    }
+
+    public void changeCameraFOV(float speedAmount)
+    {
+        StopAllCoroutines();
+        StartCoroutine(ChangeFOVRoutine(speedAmount));
+
+        if (speedAmount > 0)
+        {
+            StartCoroutine(particleUp());
+        }
+    }
+
+    public IEnumerator particleUp()
+    {
+        speedupParticles.Play();
+        float timeLeft = 2f;
+
+        while (timeLeft >= 0)
+        {
+            timeLeft -= Time.deltaTime;
+            yield return null;
+        } 
+        speedupParticles.Stop();
+    }
+
+    IEnumerator ChangeFOVRoutine(float speedAmount)
+    {
+        float startFov = cinemachineCamera.Lens.FieldOfView;
+        float targetFov = Mathf.Clamp(startFov + speedAmount * zoomSpeedModifier, minFov, maxFov);
+        
+        float elapsedTime = 0;
+
+        while (elapsedTime < zoomDuration)
+        {
+            float t = elapsedTime / zoomDuration;
+            elapsedTime += Time.deltaTime;
+
+            cinemachineCamera.Lens.FieldOfView = Mathf.Lerp(startFov, targetFov, t);
+            yield return null;
+        }
+        cinemachineCamera.Lens.FieldOfView = targetFov;
+    }
 }

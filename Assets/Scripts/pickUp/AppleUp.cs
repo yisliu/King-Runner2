@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 
 public class AppleUp : pickUp
@@ -13,5 +14,27 @@ public class AppleUp : pickUp
     protected override void pickUpEffect()
     {
         levelGenerator.changeChunkSpeed(adjustChangeMoveSpeedAmount);
+    }
+}
+*/
+using UnityEngine;
+
+public class AppleUp : pickUp
+{
+    [SerializeField] float adjustChangeMoveSpeedAmount = 3f;
+
+    private ILevelCooker levelCooker;
+
+    public void init(ILevelCooker cooker)
+    {
+        levelCooker = cooker;
+    }
+
+    protected override void pickUpEffect()
+    {
+        if (levelCooker != null)
+            levelCooker.ChangeSpeed(adjustChangeMoveSpeedAmount);
+        else
+            Debug.LogWarning("AppleUp: No level cooker reference assigned.");
     }
 }
