@@ -1,0 +1,933 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1521398425 &-1923843235688013492
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Build_2026-03-Jul-15-05-00
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 639187130720943870
+    buildGUID: 6b135549de3c4b57b8d13e01d63258b1
+    platformName: OSXUniversal
+    platformGroupName: Standalone
+    subtarget: 2
+    options: 2097156
+    assetBundleOptions: 0
+    outputPath: /Users/ysliu/Desktop/Test Run.app
+    crc: 0
+    totalSize: 2071600735
+    totalTimeTicks: 257492785
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 1
+    buildResult: 1
+    multiProcessEnabled: 0
+  m_Files:
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/globalgamemanagers
+    role: globalgamemanagers
+    id: 0
+    totalSize: 195364
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/globalgamemanagers.assets
+    role: assets
+    id: 1
+    totalSize: 1174680
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/globalgamemanagers.assets.resS
+    role: resS
+    id: 2
+    totalSize: 6174944
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level0
+    role: level0
+    id: 3
+    totalSize: 22780
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level1
+    role: level1
+    id: 4
+    totalSize: 5105820
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level2
+    role: level2
+    id: 5
+    totalSize: 239259024
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level2.resS
+    role: resS
+    id: 6
+    totalSize: 167015984
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level3
+    role: level3
+    id: 7
+    totalSize: 248612752
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level3.resS
+    role: resS
+    id: 8
+    totalSize: 160922944
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level4
+    role: level4
+    id: 9
+    totalSize: 240178000
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level4.resS
+    role: resS
+    id: 10
+    totalSize: 166705184
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/level5
+    role: level5
+    id: 11
+    totalSize: 15352
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/resources.assets
+    role: assets
+    id: 12
+    totalSize: 288520
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/resources.assets.resS
+    role: resS
+    id: 13
+    totalSize: 356784
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Resources/unity_builtin_extra
+    role: unity_builtin_extra
+    id: 14
+    totalSize: 425620
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json
+    role: json
+    id: 15
+    totalSize: 4215
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/ScriptingAssemblies.json
+    role: json
+    id: 16
+    totalSize: 3999
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets0.assets
+    role: assets
+    id: 17
+    totalSize: 9318112
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets0.assets.resS
+    role: resS
+    id: 18
+    totalSize: 370812368
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets0.resource
+    role: resource
+    id: 19
+    totalSize: 64352
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets1.assets
+    role: assets
+    id: 20
+    totalSize: 8986756
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets1.assets.resS
+    role: resS
+    id: 21
+    totalSize: 171459264
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets2.assets
+    role: assets
+    id: 22
+    totalSize: 56210040
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets2.assets.resS
+    role: resS
+    id: 23
+    totalSize: 79628800
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets2.resource
+    role: resource
+    id: 24
+    totalSize: 29233632
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets3.assets
+    role: assets
+    id: 25
+    totalSize: 29660
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets3.assets.resS
+    role: resS
+    id: 26
+    totalSize: 262464
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets4.assets
+    role: assets
+    id: 27
+    totalSize: 29121
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets5.assets
+    role: assets
+    id: 28
+    totalSize: 4708
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/sharedassets5.assets.resS
+    role: resS
+    id: 29
+    totalSize: 2198704
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/boot.config
+    role: config
+    id: 30
+    totalSize: 134
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Assembly-CSharp-firstpass.dll
+    role: dll
+    id: 31
+    totalSize: 45568
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll
+    role: dll
+    id: 32
+    totalSize: 79360
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/DOTween.dll
+    role: dll
+    id: 33
+    totalSize: 177664
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Mono.Security.dll
+    role: dll
+    id: 34
+    totalSize: 241152
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/mscorlib.dll
+    role: dll
+    id: 35
+    totalSize: 4625408
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/netstandard.dll
+    role: dll
+    id: 36
+    totalSize: 90624
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll
+    role: dll
+    id: 37
+    totalSize: 257024
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Configuration.dll
+    role: dll
+    id: 38
+    totalSize: 124928
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Core.dll
+    role: dll
+    id: 39
+    totalSize: 1115136
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll
+    role: dll
+    id: 40
+    totalSize: 29696
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Data.dll
+    role: dll
+    id: 41
+    totalSize: 2105344
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.dll
+    role: dll
+    id: 42
+    totalSize: 2702848
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Drawing.dll
+    role: dll
+    id: 43
+    totalSize: 489984
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll
+    role: dll
+    id: 44
+    totalSize: 44544
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.IO.Compression.dll
+    role: dll
+    id: 45
+    totalSize: 114688
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll
+    role: dll
+    id: 46
+    totalSize: 18432
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Net.Http.dll
+    role: dll
+    id: 47
+    totalSize: 281600
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Numerics.dll
+    role: dll
+    id: 48
+    totalSize: 119296
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Runtime.dll
+    role: dll
+    id: 49
+    totalSize: 12288
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll
+    role: dll
+    id: 50
+    totalSize: 934400
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Security.dll
+    role: dll
+    id: 51
+    totalSize: 314880
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll
+    role: dll
+    id: 52
+    totalSize: 215040
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Transactions.dll
+    role: dll
+    id: 53
+    totalSize: 35328
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Xml.dll
+    role: dll
+    id: 54
+    totalSize: 3160064
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll
+    role: dll
+    id: 55
+    totalSize: 136704
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.AI.Navigation.dll
+    role: dll
+    id: 56
+    totalSize: 24064
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Burst.dll
+    role: dll
+    id: 57
+    totalSize: 317440
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Burst.Unsafe.dll
+    role: dll
+    id: 58
+    totalSize: 5632
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Cinemachine.dll
+    role: dll
+    id: 59
+    totalSize: 484352
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Collections.dll
+    role: dll
+    id: 60
+    totalSize: 452096
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Collections.LowLevel.ILSupport.dll
+    role: dll
+    id: 61
+    totalSize: 5120
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.InputSystem.dll
+    role: dll
+    id: 62
+    totalSize: 1132032
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.InputSystem.ForUI.dll
+    role: dll
+    id: 63
+    totalSize: 16896
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Mathematics.dll
+    role: dll
+    id: 64
+    totalSize: 752640
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Multiplayer.Center.Common.dll
+    role: dll
+    id: 65
+    totalSize: 10752
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Postprocessing.Runtime.dll
+    role: dll
+    id: 66
+    totalSize: 163328
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Rendering.LightTransport.Runtime.dll
+    role: dll
+    id: 67
+    totalSize: 305664
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    role: dll
+    id: 68
+    totalSize: 8704
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
+    role: dll
+    id: 69
+    totalSize: 847360
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll
+    role: dll
+    id: 70
+    totalSize: 5632
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
+    role: dll
+    id: 71
+    totalSize: 4608
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll
+    role: dll
+    id: 72
+    totalSize: 209920
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+    role: dll
+    id: 73
+    totalSize: 4608
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll
+    role: dll
+    id: 74
+    totalSize: 248832
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll
+    role: dll
+    id: 75
+    totalSize: 5632
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+    role: dll
+    id: 76
+    totalSize: 791040
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll
+    role: dll
+    id: 77
+    totalSize: 4608
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Splines.dll
+    role: dll
+    id: 78
+    totalSize: 150016
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll
+    role: dll
+    id: 79
+    totalSize: 445952
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.Timeline.dll
+    role: dll
+    id: 80
+    totalSize: 128512
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll
+    role: dll
+    id: 81
+    totalSize: 86016
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll
+    role: dll
+    id: 82
+    totalSize: 629760
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll
+    role: dll
+    id: 83
+    totalSize: 407552
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll
+    role: dll
+    id: 84
+    totalSize: 32256
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll
+    role: dll
+    id: 85
+    totalSize: 42496
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll
+    role: dll
+    id: 86
+    totalSize: 62464
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll
+    role: dll
+    id: 87
+    totalSize: 105472
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll
+    role: dll
+    id: 88
+    totalSize: 202752
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll
+    role: dll
+    id: 89
+    totalSize: 11264
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll
+    role: dll
+    id: 90
+    totalSize: 28160
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll
+    role: dll
+    id: 91
+    totalSize: 92160
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll
+    role: dll
+    id: 92
+    totalSize: 22016
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll
+    role: dll
+    id: 93
+    totalSize: 13312
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll
+    role: dll
+    id: 94
+    totalSize: 12288
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ContentLoadModule.dll
+    role: dll
+    id: 95
+    totalSize: 18432
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll
+    role: dll
+    id: 96
+    totalSize: 1783296
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll
+    role: dll
+    id: 97
+    totalSize: 12288
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll
+    role: dll
+    id: 98
+    totalSize: 27136
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.dll
+    role: dll
+    id: 99
+    totalSize: 158720
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll
+    role: dll
+    id: 100
+    totalSize: 19456
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll
+    role: dll
+    id: 101
+    totalSize: 42496
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll
+    role: dll
+    id: 102
+    totalSize: 10240
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll
+    role: dll
+    id: 103
+    totalSize: 3584
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll
+    role: dll
+    id: 104
+    totalSize: 15872
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.HierarchyCoreModule.dll
+    role: dll
+    id: 105
+    totalSize: 80896
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll
+    role: dll
+    id: 106
+    totalSize: 10240
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll
+    role: dll
+    id: 107
+    totalSize: 16896
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll
+    role: dll
+    id: 108
+    totalSize: 195584
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.InputForUIModule.dll
+    role: dll
+    id: 109
+    totalSize: 46592
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll
+    role: dll
+    id: 110
+    totalSize: 31232
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll
+    role: dll
+    id: 111
+    totalSize: 13824
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll
+    role: dll
+    id: 112
+    totalSize: 12800
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll
+    role: dll
+    id: 113
+    totalSize: 12800
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.MarshallingModule.dll
+    role: dll
+    id: 114
+    totalSize: 53248
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.MultiplayerModule.dll
+    role: dll
+    id: 115
+    totalSize: 5120
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll
+    role: dll
+    id: 116
+    totalSize: 155648
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll
+    role: dll
+    id: 117
+    totalSize: 10752
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll
+    role: dll
+    id: 118
+    totalSize: 189440
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll
+    role: dll
+    id: 119
+    totalSize: 171008
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.PropertiesModule.dll
+    role: dll
+    id: 120
+    totalSize: 138752
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+    role: dll
+    id: 121
+    totalSize: 10240
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll
+    role: dll
+    id: 122
+    totalSize: 11776
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll
+    role: dll
+    id: 123
+    totalSize: 10240
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll
+    role: dll
+    id: 124
+    totalSize: 21504
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll
+    role: dll
+    id: 125
+    totalSize: 14336
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll
+    role: dll
+    id: 126
+    totalSize: 17408
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll
+    role: dll
+    id: 127
+    totalSize: 11264
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll
+    role: dll
+    id: 128
+    totalSize: 14848
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll
+    role: dll
+    id: 129
+    totalSize: 27648
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll
+    role: dll
+    id: 130
+    totalSize: 118784
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+    role: dll
+    id: 131
+    totalSize: 11264
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll
+    role: dll
+    id: 132
+    totalSize: 73216
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll
+    role: dll
+    id: 133
+    totalSize: 332800
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll
+    role: dll
+    id: 134
+    totalSize: 34816
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll
+    role: dll
+    id: 135
+    totalSize: 43520
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll
+    role: dll
+    id: 136
+    totalSize: 16896
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll
+    role: dll
+    id: 137
+    totalSize: 265728
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll
+    role: dll
+    id: 138
+    totalSize: 2042368
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll
+    role: dll
+    id: 139
+    totalSize: 34304
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll
+    role: dll
+    id: 140
+    totalSize: 10240
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll
+    role: dll
+    id: 141
+    totalSize: 20992
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+    role: dll
+    id: 142
+    totalSize: 46592
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll
+    role: dll
+    id: 143
+    totalSize: 13312
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll
+    role: dll
+    id: 144
+    totalSize: 11776
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+    role: dll
+    id: 145
+    totalSize: 10240
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+    role: dll
+    id: 146
+    totalSize: 14336
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+    role: dll
+    id: 147
+    totalSize: 13824
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll
+    role: dll
+    id: 148
+    totalSize: 54784
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+    role: dll
+    id: 149
+    totalSize: 13312
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+    role: dll
+    id: 150
+    totalSize: 22016
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll
+    role: dll
+    id: 151
+    totalSize: 16896
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll
+    role: dll
+    id: 152
+    totalSize: 63488
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll
+    role: dll
+    id: 153
+    totalSize: 44032
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll
+    role: dll
+    id: 154
+    totalSize: 28672
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll
+    role: dll
+    id: 155
+    totalSize: 17408
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll
+    role: dll
+    id: 156
+    totalSize: 12288
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll
+    role: dll
+    id: 157
+    totalSize: 73216
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/PlugIns/lib_burst_generated.bundle
+    role: bundle
+    id: 158
+    totalSize: 1208512
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/Resources/unity
+      default resources
+    role: unity default resources
+    id: 159
+    totalSize: 1699492
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Frameworks/UnityPlayer.dylib
+    role: dylib
+    id: 160
+    totalSize: 60196912
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Frameworks/libMonoPosixHelper.dylib
+    role: dylib
+    id: 161
+    totalSize: 566976
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Frameworks/libmonobdwgc-2.0.dylib
+    role: dylib
+    id: 162
+    totalSize: 7018752
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Frameworks/libmono-native.dylib
+    role: dylib
+    id: 163
+    totalSize: 1665712
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+    role: browser
+    id: 164
+    totalSize: 1605
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+    role: aspx
+    id: 165
+    totalSize: 60575
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config
+    role: config
+    id: 166
+    totalSize: 29066
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map
+    role: map
+    id: 167
+    totalSize: 2622
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config
+    role: config
+    id: 168
+    totalSize: 11635
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+    role: browser
+    id: 169
+    totalSize: 1605
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+    role: aspx
+    id: 170
+    totalSize: 60575
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config
+    role: config
+    id: 171
+    totalSize: 33598
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map
+    role: map
+    id: 172
+    totalSize: 2622
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config
+    role: config
+    id: 173
+    totalSize: 18802
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+    role: browser
+    id: 174
+    totalSize: 1605
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+    role: aspx
+    id: 175
+    totalSize: 60575
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config
+    role: config
+    id: 176
+    totalSize: 34056
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map
+    role: map
+    id: 177
+    totalSize: 2622
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config
+    role: config
+    id: 178
+    totalSize: 18811
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini
+    role: ini
+    id: 179
+    totalSize: 311984
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/config
+    role: config
+    id: 180
+    totalSize: 3815
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml
+    role: xml
+    id: 181
+    totalSize: 25817
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/Data/app.info
+    role: info
+    id: 182
+    totalSize: 25
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/DefaultPreferences.plist
+    role: plist
+    id: 183
+    totalSize: 254
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/MainMenu.nib/designable.nib
+    role: nib
+    id: 184
+    totalSize: 5071
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/MainMenu.nib/keyedobjects.nib
+    role: nib
+    id: 185
+    totalSize: 4792
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/PlayerIcon.icns
+    role: icns
+    id: 186
+    totalSize: 1082771
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Info.plist
+    role: plist
+    id: 187
+    totalSize: 1565
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/Resources/PrivacyInfo.xcprivacy
+    role: xcprivacy
+    id: 188
+    totalSize: 81
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/MacOS/Island Infinite Runner
+    role: Island Infinite Runner
+    id: 189
+    totalSize: 132052
+  - path: /Users/ysliu/Desktop/Test Run.app/Contents/_CodeSignature/CodeResources
+    role: CodeResources
+    id: 190
+    totalSize: 53553
+  m_BuildSteps:
+  - stepName: Build player
+    durationTicks: 257492785
+    depth: 0
+    messages: []
+  - stepName: Preprocess Player
+    durationTicks: 1786584
+    depth: 1
+    messages:
+    - type: 3
+      content: "1 URP assets included in build\n- PC_RPAsset - Assets/Settings/PC_RPAsset.asset\n\t
+        - PC_Renderer - Assets/Settings/PC_Renderer.asset - UnityEngine.Rendering.Universal.UniversalRendererData\n"
+  - stepName: Prepare For Build
+    durationTicks: 4457
+    depth: 1
+    messages: []
+  - stepName: ProducePlayerScriptAssemblies
+    durationTicks: 31725002
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 21232848
+    depth: 2
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 8818105
+    depth: 3
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 926260
+    depth: 3
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 4677251
+    depth: 1
+    messages: []
+  - stepName: Check old data build
+    durationTicks: 4407878
+    depth: 2
+    messages: []
+  - stepName: Set up scripts only build
+    durationTicks: 11975
+    depth: 2
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 461815
+    depth: 1
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 23911
+    depth: 1
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Run script only build
+    durationTicks: 1526405
+    depth: 1
+    messages: []
+  - stepName: Build scripts DLLs
+    durationTicks: 344525
+    depth: 2
+    messages: []
+  - stepName: GetSystemAssemblies
+    durationTicks: 65223
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 209527699
+    depth: 1
+    messages: []
+  - stepName: Setup incremental player build
+    durationTicks: 1244971
+    depth: 2
+    messages: []
+  - stepName: Incremental player build
+    durationTicks: 45539297
+    depth: 2
+    messages: []
+  - stepName: Report output files
+    durationTicks: 147680
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: 5918208095504686724}
+  - {fileID: 492874475706944256}
+  - {fileID: 8524634997352366712}
+  - {fileID: -1923843235688013492}
+--- !u!382020655 &492874475706944256
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Unity.Collections.LowLevel.ILSupport
+  - Unity.Burst.Unsafe
+  - DOTween
+  - Unity.VisualScripting.Antlr3.Runtime
+  - nunit.framework
+  m_EditorPlugins:
+  - Unity.VisualScripting.sqlite3
+  - Mono.Cecil.Mdb
+  - Unity.Plastic.Newtonsoft.Json
+  - Unity.Plastic.Antlr3.Runtime
+  - Unity.VisualScripting.YamlDotNet
+  - DOTweenEditor
+  - Unity.Burst.Cecil.Mdb
+  - Unity.VisualScripting.TextureAssets
+  - zlib64Plastic
+  - Unity.VisualScripting.IonicZip
+  - liblz4Plastic
+  - Mono.Cecil.Pdb
+  - JetBrains.Rider.PathLocator
+  - Unity.Burst.Cecil.Pdb
+  - Unity.Burst.Cecil
+  - log4netPlastic
+  - Unity.Burst.Cecil.Rocks
+  - Mono.Cecil.Rocks
+  - lz4x64Plastic
+  - unityplastic
+  - AppleEventIntegration
+  - Mono.Cecil
+--- !u!114 &5918208095504686724
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13805, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!641289076 &8524634997352366712
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0

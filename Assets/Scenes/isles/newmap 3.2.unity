@@ -53436,7 +53436,7 @@ MonoBehaviour:
   player: {fileID: 0}
   timeText: {fileID: 599421388}
   startTime: 60
-  lowTimeThreshold: 5
+  lowTimeThreshold: 10
 --- !u!114 &313846938
 MonoBehaviour:
   m_ObjectHideFlags: 0
